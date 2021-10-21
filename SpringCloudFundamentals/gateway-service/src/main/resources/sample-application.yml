@@ -1,0 +1,22 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://localhost:8761/eureka"
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+      - id: hello
+        uri: http://localhost:1111/
+        predicates:
+          - Path=/hello/**
+        filters:
+          - StripPrefix=2
+      - id: goodbye
+        uri: http://localhost:2222/
+        predicates:
+          - Path=/goodbye/**
+        filters:
+          - StripPrefix=2
