@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/loadbalancer-time-service/loadbalancer-time-service.iml" filepath="$PROJECT_DIR$/loadbalancer-time-service/loadbalancer-time-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../scf-config-repository/scf-config-repository.iml" filepath="$PROJECT_DIR$/../../scf-config-repository/scf-config-repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-app/weather-app.iml" filepath="$PROJECT_DIR$/weather-app/weather-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather-service/weather-service.iml" filepath="$PROJECT_DIR$/weather-service/weather-service.iml" />
     </modules>
   </component>
 </project>

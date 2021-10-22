@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="loadbalancer-time-app" />
+        <module name="config-client" />
+        <module name="weather-service" />
+        <module name="loadbalancer-time-service" />
         <module name="config-server" />
         <module name="discovery-server" />
-        <module name="loadbalancer-time-app" />
+        <module name="weather-app" />
         <module name="service" />
-        <module name="config-client" />
         <module name="gateway-service" />
         <module name="hello-service" />
         <module name="goodbye-service" />
         <module name="client" />
-        <module name="loadbalancer-time-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,8 +30,11 @@
       <module name="hello-service" target="11" />
       <module name="loadbalancer-time-app" target="11" />
       <module name="loadbalancer-time-service" target="11" />
+      <module name="micrometer-dashboard" target="11" />
       <module name="service" target="11" />
       <module name="SpringCloudFundamentals" target="11" />
+      <module name="weather-app" target="11" />
+      <module name="weather-service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -43,7 +48,10 @@
       <module name="hello-service" options="-parameters" />
       <module name="loadbalancer-time-app" options="-parameters" />
       <module name="loadbalancer-time-service" options="-parameters" />
+      <module name="micrometer-dashboard" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="weather-app" options="-parameters" />
+      <module name="weather-service" options="-parameters" />
     </option>
   </component>
 </project>

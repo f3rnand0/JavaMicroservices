@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/goodbye-service/pom.xml" />
         <option value="$PROJECT_DIR$/loadbalancer-time-app/pom.xml" />
         <option value="$PROJECT_DIR$/loadbalancer-time-service/pom.xml" />
+        <option value="$PROJECT_DIR$/weather-service/pom.xml" />
+        <option value="$PROJECT_DIR$/weather-app/pom.xml" />
       </list>
     </option>
   </component>
