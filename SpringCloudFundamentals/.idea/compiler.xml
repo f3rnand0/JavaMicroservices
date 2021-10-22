@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="discovery-server" />
+        <module name="loadbalancer-time-app" />
         <module name="service" />
         <module name="config-client" />
         <module name="gateway-service" />
         <module name="hello-service" />
         <module name="goodbye-service" />
         <module name="client" />
+        <module name="loadbalancer-time-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,8 @@
       <module name="gateway-service" target="11" />
       <module name="goodbye-service" target="11" />
       <module name="hello-service" target="11" />
+      <module name="loadbalancer-time-app" target="11" />
+      <module name="loadbalancer-time-service" target="11" />
       <module name="service" target="11" />
       <module name="SpringCloudFundamentals" target="11" />
     </bytecodeTargetLevel>
@@ -37,6 +41,8 @@
       <module name="gateway-service" options="-parameters" />
       <module name="goodbye-service" options="-parameters" />
       <module name="hello-service" options="-parameters" />
+      <module name="loadbalancer-time-app" options="-parameters" />
+      <module name="loadbalancer-time-service" options="-parameters" />
       <module name="service" options="-parameters" />
     </option>
   </component>

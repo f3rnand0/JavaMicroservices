@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/goodbye-service/goodbye-service.iml" filepath="$PROJECT_DIR$/goodbye-service/goodbye-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/hello-service/hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadbalancer-time-app/loadbalancer-time-app.iml" filepath="$PROJECT_DIR$/loadbalancer-time-app/loadbalancer-time-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadbalancer-time-service/loadbalancer-time-service.iml" filepath="$PROJECT_DIR$/loadbalancer-time-service/loadbalancer-time-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../scf-config-repository/scf-config-repository.iml" filepath="$PROJECT_DIR$/../../scf-config-repository/scf-config-repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
     </modules>

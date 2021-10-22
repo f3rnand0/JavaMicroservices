@@ -9,6 +9,9 @@
     <file url="file://$PROJECT_DIR$/gateway-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/goodbye-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loadbalancer-time-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loadbalancer-time-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loadbalancer-time-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service/src/main/java" charset="UTF-8" />
   </component>
 </project>
