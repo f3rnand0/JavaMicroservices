@@ -29,7 +29,7 @@ public class TicketPrice {
     private BigDecimal basePrice;
 
     @ManyToOne
-    @JoinColumn(name = "ticket_type_code", nullable = false, updatable = false)
+    @JoinColumn(name = "ticket_type_code", nullable = false)
     private TicketType ticketType;
 
     @ManyToOne
