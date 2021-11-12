@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @Entity
@@ -17,9 +18,11 @@ public class Speaker {
     private Long speakerId;
 
     @Column(name = "first_name")
+    @NotNull
     private String firstName;
 
     @Column(name = "last_name")
+    @NotNull
     private String lastName;
 
     @Column(name = "title")
